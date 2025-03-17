@@ -1,6 +1,8 @@
 class GlobalConfig {
   public static instance: GlobalConfig;
   public ConfigValues: string[];
+  // Record<string,string | number> = {}
+  
 
   constructor() {
     this.ConfigValues = [];
