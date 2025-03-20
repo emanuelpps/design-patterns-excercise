@@ -17,3 +17,5 @@ newGroup.suscriberFunction((notification: string) => {
 })
 
 newGroup.notify("notificacion")
+
+console.log()
